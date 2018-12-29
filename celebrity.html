@@ -1,0 +1,224 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <title>Home</title>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B"
+    crossorigin="anonymous">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
+    crossorigin="anonymous">
+  <link rel="stylesheet" href="main.css">
+  <link href="https://fonts.googleapis.com/css?family=Permanent+Marker" rel="stylesheet">
+  <!-- <link rel="stylesheet" href="lightbox2-master/lightbox2-master/dist/css/lightbox.min.css"> -->
+  <!-- <link rel="stylesheet" href="reset.css"> -->
+  <style>
+    body {
+      background: #eee;
+    }
+    input{
+      display: none;
+    }
+    .wrapper {
+      margin: 0 auto;
+      max-width: 960px;
+    }
+
+    .masonry {
+      column-count: 3;
+    }
+
+    @media screen and (max-width: 767px) {
+      .masonry {
+        column-count: 2;
+      }
+    }
+
+    .item {
+      border-radius: 4px;
+      overflow: hidden;
+      margin-bottom: 10px;
+      background: #fff;
+      -webkit-column-break-inside: avoid;
+      /* Chrome, Safari, Opera */
+      page-break-inside: avoid;
+      /* Firefox */
+      break-inside: avoid;
+      /* IE 10+ */
+    }
+
+    .item p {
+      padding: 0 20px 10px;
+    }
+
+    .item h2 {
+      text-align: center;
+    }
+
+    .readmore {
+      text-align: center;
+    }
+
+    .item a {
+      display: block;
+      border: 1px solid #000;
+    }
+
+    .item a:hover {
+      cursor: pointer;
+    }
+
+    .masonry img {
+      max-width: 100%;
+      /* object-fit: cover; */
+    }
+
+    .content {
+      transition: .5s;
+      overflow: hidden;
+      max-height: 0;
+    }
+
+    .content.active {
+      max-height: 1000px;
+    }
+  </style>
+</head>
+
+<body>
+  <header class="header-wrap">
+    <nav class="dark-bg">
+      <ul class="d-flex justify-content-end mr-4">
+        <li><a href="http://instagram.com/swissbeatbox"><i class="fab fa-instagram"></i></a></li>
+        <li><a href="https://www.facebook.com/swissbeatbox"><i class="fab fa-facebook-square"></i></a></li>
+        <li><a href="http://www.youtube.com/pepouni"><i class="fab fa-youtube-square"></i></a></li>
+        <li><a href="https://twitter.com/swissbeatbox"><i class="fab fa-twitter-square"></i></a></li>
+      </ul>
+    </nav>
+    <div class="d-flex justify-content-center align-items-center">
+      <figure class="sbx-logo container960"><img src="images/sbx-paper-logo.png" alt=""></figure>
+    </div>
+    <h1 class="text-center text-white py-3">Swissbeatbox, World's largest Beatbox Platform</h1>
+  </header>
+
+  <div class="topnav sticky ">
+    <div class="container d-flex justify-content-around">
+      <a href="home.html">首頁</a>
+      <a href="introduce.html">Beatbox的演進</a>
+      <a href="tutorial.html">Beatbox教學</a>
+      <a class="active" href="celebrity.html">知名Beatboxer</a>
+      <a href="shop.html">商店</a>
+    </div>
+
+  </div>
+
+  <section class="wrapper">
+    <div class="masonry mt-5">
+      <div class="item">
+        <img src="images/ALEM.jpg" alt="">
+        <h2>ALEM</h2>
+        <input type="checkbox">
+        <a class="readmore" role="button">看更多</a>
+        <div class="content">
+          <p>Alem出生於一個音樂世家，並在6歲時開始練習吉他.11歲時他發現了鼓，從那一刻起他就能表達自己。他本能地總是用嘴巴模仿鼓的節奏。2006年的一天，他的兄弟告訴他，“你正在做箱包！”</p>
+        </div>
+      </div>
+      <div class="item">
+        <img src="images/Reeps.jpg" alt="">
+        <h2>Reeps One</h2>
+        <input type="checkbox">
+        <a class="readmore" role="button">看更多</a>
+        <div class="content">
+          <p>Reeps One是英國本土人和兩次英國Beatbox冠軍。他在一個音樂家和藝術家的家庭中長大。在早期，他開始模仿聲音，這樣他就可以在不使用物理樂器的情況下進行構圖。
+            Reeps One雖然是第一個將dubstep融入beatbox的beatboxer之一。 </p>
+        </div>
+      </div>
+      <div class="item">
+        <img src="images/skiller.jpg" alt="">
+        <h2>Skiller</h2>
+        <input type="checkbox">
+        <a class="readmore" role="button">看更多</a>
+        <div class="content">
+          <p>Skiller是來自保加利亞索菲亞的beatboxer。他被稱為“ 東方快嘴”，在保加利亞引起了大量關注的節拍藝術。他是第一個全國性的beatbox冠軍（2007年）。他還是最大的國際beatbox比賽的冠軍 -
+            巴塞爾的“Grand Beatbox Battle”。2012年，SkilleR成為Beatbox Battle World冠軍。
+          </p>
+        </div>
+      </div>
+      <div class="item">
+        <img src="images/Dharni_.jpg" alt="">
+        <h2>Dharni</h2>
+        <input type="checkbox">
+        <a class="readmore" role="button">看更多</a>
+        <div class="content">
+          <p>Dharni被公認為世界上最好的節拍者之一，僅在2014年就在歐洲和日本的不同地區演出，並在短時間內獲得了認可。他還為Black Eyed Peas，Kanye West，Jin，Lady Gaga，Flux
+            Pavillion等藝術家開放，並在Mariah Carey的演唱會上演出。</p>
+        </div>
+      </div>
+      <div class="item">
+        <img src="images/Napom.jpg" alt="">
+        <h2>NaPoM</h2>
+        <input type="checkbox">
+        <a class="readmore" role="button">看更多</a>
+        <div class="content">
+          <p>NaPoM在2011年在YouTube上發現了beatbox。從那以後，他開發了他獨特的唇膏風格，理由是他希望能夠創造出完整而連續的聲音。在他的記憶中，他學到的第一個唇膏是模仿一個夥伴，Alem。
+            幾年之內，尼爾在2015年面對世界冠軍頭銜的英雄。</p>
+        </div>
+      </div>
+      <div class="item">
+        <img src="images/Hiss0.jpg" alt="">
+        <h2>HISS</h2>
+        <input type="checkbox">
+        <a class="readmore" role="button">看更多</a>
+        <div class="content">
+          <p>Hiss是來自韓國的beatboxer，絕對是值得關注的節拍者。他在在線戰鬥社區和他的祖國為自己贏得了名聲。他認可了一位朋友進入beatboxing。
+              2016年，Hiss成為2017年Grand Beatbox Battle的外卡冠軍，並與韓國的beatboxer，Two.H一起被邀請加入Tag Team類別。Hiss的Wildcard因其乾淨的技術性而受到廣泛讚譽，同時整體融入了堅實的旋律。</p>
+        </div>
+      </div>
+      
+    </div>
+  </section><!-- wrapper -->
+
+  <!-- Footer -->
+  <footer class="footer text-white mt-5 p-3">
+      © 2018 Copyright: mybeatbox.com
+      </div>
+    </footer>
+    <!-- Footer -->
+
+
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="home_slide.js"></script>
+  <script>
+    $("a.readmore").click(function () {
+      let checkbox = $(this).closest(".item").find(":checkbox");
+      let checked = checkbox.prop("checked");
+      checkbox.prop("checked", !checked);
+      checked = checkbox.prop("checked");
+      console.log(checked);
+      $(this).closest(".item").find(".content").toggleClass("active");
+      if (checked) {
+        $(this).text("關閉");
+        // $(this).closest(".item").find(".content").addClass("active");
+      }
+      else {
+        $(this).text("看更多");
+        // $(this).closest(".item").find(".content").removeClass("active");
+      }
+    });
+  </script>
+
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/js/bootstrap.min.js" integrity="sha384-o+RDsa0aLu++PJvFqy8fFScvbHFLtbvScb8AjopnFD+iEQ7wo/CG0xlczd+2O/em"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>

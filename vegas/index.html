@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Vegas</title>
+    <link rel="stylesheet" href="vegas.min.css">
+</head>
+<body>
+    
+    <script
+  src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+  <script src="vegas.min.js"></script>
+  <script>
+       $('body').vegas({
+        //    timer:false,
+            slide: 1,
+           shuffle:true,
+           autoplay: false,
+            slides: [
+            { src: 'images/slide1.jpeg' },
+            { src: 'images/slide2.jpeg' , transition: 'blur'},
+            { src: 'images/slide3.jpeg' },
+            { src: 'images/slide4.jpeg'},
+        ],
+        transition: 'burn2'
+    });
+  </script>
+</body>
+</html>

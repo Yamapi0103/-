@@ -1,0 +1,230 @@
+@import url(https://fonts.googleapis.com/earlyaccess/notosanstc.css);
+.parallax {
+    /* The image used */
+    /* Set a specific height */
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    /* background-position: center;
+    background-repeat: no-repeat; */
+    background-size: cover;
+  }
+.sticky{
+    position: sticky;
+}
+.fab {
+    color: white;
+    font-size: 20px;
+}
+ul, li, h1{
+    list-style-type: none;
+    margin: 0;
+}
+.dark-bg{
+    background: #252525;
+}
+.container960 {
+    max-width: 960px;
+    margin: 0 auto;
+}
+.header-wrap{
+    background-color: #3a3f45;
+    width: 100%;
+}
+header ul li a {
+    padding: 10px 10px;
+    display: block;
+}
+figure.sbx-logo{
+    /* max-height: 150px;
+    max-width: 150px; */
+    width: 150px;
+    height: 150px;  
+    display: block;
+    margin: 30px    ;   
+}
+figure.sbx-logo img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+/* -------------- topnav ------------- */
+.topnav {
+    /* overflow: hidden; */
+    background-color: #e9e9e9;
+    z-index: 18;
+    top:0;
+  }
+  
+  .topnav a {
+    /* float: left; */
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+    width: 20%;
+  }
+  
+  .topnav a:hover {
+    background-color: #ddd;
+    text-decoration: none;
+    color:black;
+    /* color: black; */
+  }
+  
+  .topnav a.active {
+    background-color: #af0707;
+    color: white;
+  }
+  
+  .topnav .search-container {
+    float: right;
+  }
+  
+  .topnav input[type=text] {
+    padding: 6px;
+    margin-top: 8px;
+    font-size: 17px;
+    border: none;
+  }
+  
+  .topnav .search-container button {
+    float: right;
+    padding: 6px 10px;
+    margin-top: 8px;
+    margin-right: 16px;
+    background: #ddd;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .topnav .search-container button:hover {
+    background: #ccc;
+  }
+
+  /* ----------home slider---------- */
+  .slide-wrapper{
+      width: 1000px;
+      height: 500px;
+      background: #ccc;
+      overflow: hidden;      
+  }
+  .slider-wrap{
+    left:0;
+    transition:.5s cubic-bezier(.18,-0.2,.38,.99);
+  }
+  .slider-wrap li{
+    width: 1000px;
+    height: 500px;
+  }
+  .slider-wrap li img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .paging {
+    bottom:5px;
+    width: 100%;
+}
+ .paging li {
+    width: 32px;
+    height: 10px;
+    margin: 0 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    /* border-radius: 50%; */
+ }
+ /* .paging li:hover {
+     background: #fff;
+ } */
+ .paging li:nth-child(1){
+     background: grey;
+ }
+
+ .arrow-area {
+    z-index: 10;
+    background: rgba(143, 143, 143,.5);
+    cursor: pointer;
+    top:0;
+    height: 100%;
+    width: 48px;
+    color: white;
+    font-size: 48px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    opacity: .6;
+ }
+ .arrow-area:hover {
+     opacity: 1;
+ }
+ .arrow-area-left {
+     left:0;
+ }
+ .arrow-area-right {
+     right:0;
+ }
+/* ---------------- */
+.slider-text{
+    text-align: center;
+    font-family: 'Permanent Marker', cursive;
+}
+
+
+/* introduce */
+h1, h2, p, a{
+    font-family: 'Noto Sans TC', sans-serif;
+    color: black;
+}
+figure.dharni{
+    width: 800px;
+    height: 500px;
+    overflow: hidden;
+}
+figure.old-school{
+    width: 600px;
+    height: 250px;
+    overflow: hidden;
+}
+figure.dharni img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+/* timeline */
+
+.timeline p {
+    font-size: 18px;
+    color:white;
+}
+/* ---------tutorial---------- */
+video-wrapper{
+    max-width: 700px;
+    max-height: 500px;
+    position: relative;
+    /* padding  -bottom: 56.25%;   */
+    padding-bottom: 75%; 
+    overflow: hidden;
+}
+video-wrapper iframe{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.footer{    
+    /* position: absolute; */
+    width: 100%;
+    text-align:center;
+    background: #252525;    
+}
